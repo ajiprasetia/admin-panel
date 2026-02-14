@@ -4,7 +4,7 @@ Admin panel modern dan responsif yang dibangun dengan React, TypeScript, dan Vit
 
 ## 🌟 Live Demo
 
-Lihat demo langsung di: [https://responsive-admin-panel-seven.vercel.app](https://admin-panel-by-ajiprasetia.vercel.app/)
+Lihat demo langsung di: [https://admin-panel-by-ajiprasetia.vercel.app/](https://admin-panel-by-ajiprasetia.vercel.app/)
 
 ## ✨ Fitur
 
