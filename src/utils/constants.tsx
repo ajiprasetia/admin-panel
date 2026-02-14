@@ -1,6 +1,5 @@
 
 import React from 'react';
-// Fix: Import missing types UserRole, UserStatus, and Product from the local types file
 import { User, UserRole, UserStatus, Product } from './types';
 
 export const CATEGORIES = [
@@ -13,14 +12,13 @@ export const CATEGORIES = [
   "Mainan",
 ];
 
-// Fix: Use the Product type instead of any[] for better type safety
 export const INITIAL_PRODUCTS: Product[] = [
   {
     id: '1',
     name: 'iPhone 15 Pro Max',
     category: 'Elektronik',
-    price: 1199,
-    stock: 45,
+    price: 15000000,
+    stock: 20,
     status: 'active',
     description: 'Flagship dari Apple dengan bodi titanium.',
     image: '/iphone.jpg',
@@ -30,8 +28,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: '2',
     name: 'Wireless Headphone',
     category: 'Elektronik',
-    price: 299,
-    stock: 120,
+    price: 2000000,
+    stock: 10,
     status: 'active',
     description: 'Kualitas suara premium dengan teknologi ANC canggih.',
     image: '/headphones.jpg',
@@ -41,8 +39,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: '3',
     name: 'Kaos Katun Organik',
     category: 'Pakaian',
-    price: 25,
-    stock: 8,
+    price: 1000000,
+    stock: 5,
     status: 'draft',
     description: 'Kaos lembut dan nyaman yang terbuat dari 100% katun organik.',
     image: '/shirt.jpg',
@@ -80,6 +78,5 @@ export const INITIAL_USERS: User[] = [
   }
 ];
 
-// Fix: Explicitly type ROLES and USER_STATUSES with the imported types
 export const ROLES: UserRole[] = ['Admin', 'Manager', 'Staff'];
 export const USER_STATUSES: UserStatus[] = ['Active', 'Inactive', 'Pending'];
